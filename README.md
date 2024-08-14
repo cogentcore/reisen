@@ -4,7 +4,7 @@ A simple library to extract video and audio frames from media containers (based 
 
 ## Dependencies
 
-The library requires **libav** components to work:
+The library requires **libav** components to work, specifically **version 6.x** -- *version 7 does not work!*
 
 - **libavformat**
 - **libavcodec**
@@ -28,7 +28,7 @@ sudo apt install libswscale-dev libavcodec-dev libavformat-dev libswresample-dev
 For **macOS**:
 
 ```bash
-brew install ffmpeg
+brew install ffmpeg@6
 ```
 
 For **Windows** see the [detailed tutorial](https://medium.com/@maximgradan/how-to-easily-bundle-your-cgo-application-for-windows-8515d2b19f1e).
