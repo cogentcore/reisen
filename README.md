@@ -29,6 +29,7 @@ For **macOS**:
 
 ```bash
 brew install ffmpeg@6
+brew link ffmpeg@6  <- key to actually being able to use the 6 version.
 ```
 
 For **Windows** see the [detailed tutorial](https://medium.com/@maximgradan/how-to-easily-bundle-your-cgo-application-for-windows-8515d2b19f1e).
