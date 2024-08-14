@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zergon321/reisen"
+	"github.com/cogentcore/reisen"
 )
 
 func main() {

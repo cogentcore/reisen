@@ -1,4 +1,4 @@
-# Reisen [![GoDoc](https://godoc.org/github.com/zergon321/reisen?status.svg)](https://pkg.go.dev/github.com/zergon321/reisen)
+# Reisen [![GoDoc](https://godoc.org/github.com/cogentcore/reisen?status.svg)](https://pkg.go.dev/github.com/cogentcore/reisen)
 
 A simple library to extract video and audio frames from media containers (based on **libav**, i.e. **ffmpeg**).
 
@@ -38,7 +38,7 @@ For **Windows** see the [detailed tutorial](https://medium.com/@maximgradan/how-
 Just casually run this command:
 
 ```bash
-go get github.com/zergon321/reisen
+go get github.com/cogentcore/reisen
 ```
 
 ## Usage
@@ -47,6 +47,6 @@ Any media file is composed of streams containing media data, e.g. audio, video a
 
 The library provides read video frames as **RGBA** pictures. The audio samples are provided as raw byte slices in the format of `AV_SAMPLE_FMT_DBL` (i.e. 8 bytes per sample for one channel, the data type is `float64`). The channel layout is stereo (2 channels). The byte order is little-endian. The detailed scheme of the audio samples sequence is given below.
 
-![Audio sample structure](https://github.com/zergon321/reisen/blob/master/pictures/audio_sample_structure.png)
+![Audio sample structure](https://github.com/cogentcore/reisen/blob/master/pictures/audio_sample_structure.png)
 
-You are welcome to look at the [examples](https://github.com/zergon321/reisen/tree/master/examples) to understand how to work with the library. Also please take a look at the detailed [tutorial](https://medium.com/@maximgradan/playing-videos-with-golang-83e67447b111).
+You are welcome to look at the [examples](https://github.com/cogentcore/reisen/tree/master/examples) to understand how to work with the library. Also please take a look at the detailed [tutorial](https://medium.com/@maximgradan/playing-videos-with-golang-83e67447b111).
